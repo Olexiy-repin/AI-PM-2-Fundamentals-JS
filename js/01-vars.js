@@ -11,26 +11,23 @@
  * - Оператор typeof
  */
 
-// const pricePerItem = 1000;
+// let pricePerItem = 1000;
 
 // console.log(pricePerItem);
 
-// pricePerItem = 800;
+// pricePerItem = 500;
 
-// console.log(price);
+// console.log(pricePerItem);
 
-// alert('Hello user!');
+// alert('Hello my name is Oleksii!');
 
-// const firstName = prompt('Enter your first name!');
+// const firstName = prompt('What is your name?');
 
 // console.log(firstName);
 
-// const num = 100;
+// const userAge = prompt('Введіть свій вік!');
 
-// console.log(num);
-// console.log(typeof num);
+// const typeOfUserAge = typeof userAge;
 
-// const str = 'Hello world!';
-
-// console.log(str);
-// console.log(typeof str);
+// console.log(userAge);
+// console.log(typeOfUserAge);

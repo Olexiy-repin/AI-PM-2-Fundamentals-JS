@@ -11,10 +11,9 @@
   TODO: Виведіть результат у консоль.
   TODO: Приведіть рядок до числа.
 */
-// const userInput = Number(prompt('Введіть якесь число!'));
+// const userInput = Number(prompt('Введіть якесь число'));
 
 // console.log(userInput);
-// console.log(typeof userInput);
 
 //TODO: Дізнайтесь числове значення ширини елемента.
 // const elementWidth = '50px';
@@ -35,8 +34,8 @@
  TODO: змінної value. Використовуй методи Math.floor(), Math.ceil()
  TODO: та Math.round().
 */
-const value = 27.1;
-const roundedValue = Math.ceil(value);
+// const value = 27.1;
+// const roundedValue = Math.ceil(value);
 
-console.log(value);
-console.log(roundedValue);
+// console.log(value);
+// console.log(roundedValue);
