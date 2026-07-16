@@ -3,6 +3,11 @@ TODO: Напиши функцію getRectArea(dimensions) для обчисле�
 TODO: значення яких буде передано до параметра dimensions у вигляді рядка.
 TODO: Значення гарантовано розділені пробілом.
 */
+// const getRectArea = function (dimensions) {
+//   const rectSidesArr = dimensions.split(' ');
+
+//   return Number(rectSidesArr[0]) * Number(rectSidesArr[1]);
+// };
 
 // console.log(getRectArea('8 11')); // 88
 // console.log(getRectArea('18 11')); // 198
@@ -17,6 +22,13 @@ TODO:
 TODO: Наприклад для першого елемента масиву ['Mango', 'Poly', 'Ajax'] з
 TODO: індексом 0 буде виведено 1 - Mango, а для індексу 2 виведе 3 - Ajax.
 */
+// const logItems = function (items) {
+//   console.log(items);
+
+//   for (let i = 0; i < items.length; i++) {
+//     console.log(`${i + 1} - ${items[i]}`);
+//   }
+// };
 
 // logItems(['Mango', 'Poly', 'Ajax']);
 // logItems(['🍎', '🍇', '🍑', '🍌', '🍋']);
@@ -29,6 +41,14 @@ TODO: розділені комами. Порядковий номер імен 
 TODO: вказують на відповідність. Кількість імен та телефонів
 TODO: гарантовано однакова.
 */
+// const printInfo = function (names, phones) {
+//   const namesArr = names.split(',');
+//   const phonesArr = phones.split(',');
+
+//   for (let i = 0; i < namesArr.length; i++) {
+//     console.log(`${namesArr[i]}: ${phonesArr[i]}`);
+//   }
+// };
 
 // printInfo('Jacob,William,Solomon,Artemis', '89001234567,89001112233,890055566377,890055566300');
 // printInfo('Marion,Eugenia,Dean,Jesus', '8577702524,9125002644,2028646420,9364154932');
@@ -43,7 +63,27 @@ TODO: updateCourse(oldName, newName) - змінює назву курса
 
 // console.log(courses);
 
-// addCourse('Express');
+// const addCourse = function (courseName) {
+//   if (courses.includes(courseName)) {
+//     alert(`${courseName} вже існує!`);
+//   } else {
+//     courses.push(courseName);
+//   }
+// };
+
+// const removeCourse = function (courseName) {
+//   const idxOfCourse = courses.indexOf(courseName);
+
+//   courses.splice(idxOfCourse, 1);
+// };
+
+// const updateCourse = function (oldCourseName, newCourseName) {
+//   const idxOfCourse = courses.indexOf(oldCourseName);
+
+//   courses.splice(idxOfCourse, 1, newCourseName);
+// };
+
+// addCourse('Erxpess');
 // console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJS', 'Express']
 // addCourse('CSS'); // 'Такий курс вже існує'
 // console.log(courses);
